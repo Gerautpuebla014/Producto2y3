@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class ubicacion
+    public class ubicacion
     {
+        public string  num_inv { get; set; }
+        public string nombre_laboratorio { get; set; }
     }
 }

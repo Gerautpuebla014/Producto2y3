@@ -64,6 +64,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AccesoriosparaPC.aspx" />
+    <Content Include="actualizacion.aspx" />
+    <Content Include="componente.aspx" />
+    <Content Include="computadorafinal.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -81,15 +85,48 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="index.aspx" />
+    <Content Include="laboratorio.aspx" />
+    <Content Include="marca.aspx" />
+    <Content Include="modeloscpu.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="tiposcpu.aspx" />
+    <Content Include="ubicacion.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoriosparaPC.aspx.cs">
+      <DependentUpon>AccesoriosparaPC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccesoriosparaPC.aspx.designer.cs">
+      <DependentUpon>AccesoriosparaPC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="actualizacion.aspx.cs">
+      <DependentUpon>actualizacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="actualizacion.aspx.designer.cs">
+      <DependentUpon>actualizacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="componente.aspx.cs">
+      <DependentUpon>componente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="componente.aspx.designer.cs">
+      <DependentUpon>componente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="computadorafinal.aspx.cs">
+      <DependentUpon>computadorafinal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="computadorafinal.aspx.designer.cs">
+      <DependentUpon>computadorafinal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -97,7 +134,42 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="laboratorio.aspx.cs">
+      <DependentUpon>laboratorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="laboratorio.aspx.designer.cs">
+      <DependentUpon>laboratorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="marca.aspx.cs">
+      <DependentUpon>marca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="marca.aspx.designer.cs">
+      <DependentUpon>marca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modeloscpu.aspx.cs">
+      <DependentUpon>modeloscpu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modeloscpu.aspx.designer.cs">
+      <DependentUpon>modeloscpu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tiposcpu.aspx.cs">
+      <DependentUpon>tiposcpu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tiposcpu.aspx.designer.cs">
+      <DependentUpon>tiposcpu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ubicacion.aspx.cs">
+      <DependentUpon>ubicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ubicacion.aspx.designer.cs">
+      <DependentUpon>ubicacion.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

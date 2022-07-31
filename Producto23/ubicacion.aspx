@@ -1,10 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Producto23.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ubicacion.aspx.cs" Inherits="Producto23.ubicacion" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.min.js"></script>
     <script type="text/javascript">
@@ -25,17 +26,20 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">    
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">    
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="marca.aspx">MARCAS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="actualizacion.aspx">ACTUALIZACIONES</a>
+                 <a class="nav-link" href="actualizacion.aspx">ACTUALIZACIONES</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="componente.aspx">COMPONENTES</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="index.aspx">INICIO</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="computadorafinal.aspx">PC FINAL</a>
@@ -50,11 +54,7 @@
                   <a class="nav-link" href="tiposcpu.aspx">TIPOS</a>
                  </li>
                     <li class="nav-item">
-                  <a class="nav-link" href="ubicacion.aspx">UBICACION</a>
-                 </li>
-                    <li class="nav-item">
-                  <a class="nav-link" href="AccesoriosparaPC.aspx">ACCESORIOS </a>
-                 </li>
+                   <a class="nav-link" href="AccesoriosparaPC.aspx">ACCESORIOS </a>
                     <li class="nav-item">
                   <a class="nav-link" href="laboratorio.aspx">LABORATORIO</a>
                  </li>
@@ -65,9 +65,6 @@
       </ul>
     </div>
   </nav>
-        </div>
-        <div>
-           <center><h2>BIENVENIDO AL INVENTARIO </h2></center> 
         </div>
     </form>
 </body>

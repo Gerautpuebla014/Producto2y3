@@ -8,5 +8,9 @@ namespace EntidadesInventario
 {
     public class Marca
     {
+        public int Id_Marca  { get; set; }
+        public string MarcaC { get; set; }
+        public string Extra { get; set; }
+
     }
 }

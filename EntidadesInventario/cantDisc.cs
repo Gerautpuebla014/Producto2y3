@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class cantDisc
+    public class cantDisc
     {
+        public int id_Cant { get; set; }
+        public string num_inv { get; set; }
+        public int f_Disco { get; set; }
     }
 }

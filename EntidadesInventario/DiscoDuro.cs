@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class DiscoDuro
+    public class DiscoDuro
     {
+        public int id_Disco { get; set; }
+        public string TipoDisco { get; set; }
+        public string conector { get; set; }
+        public string capacidad { get; set; }
+        public int f_Marca { get; set; }
+        public string Extra { get; set; }
     }
 }

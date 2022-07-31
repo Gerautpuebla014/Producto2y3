@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class Teclado
+    public class Teclado
     {
+        public int Id_teclado { get; set; }
+        public int f_Marca { get; set; }
+        public string conector  { get; set; }
     }
 }

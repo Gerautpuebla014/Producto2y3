@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class monitor
+    public class monitor
     {
+        public int id_monitor { get; set; }
+        public int f_marca { get; set; }
+        public string conectores { get; set; }
+        public string tamano  { get; set; }
     }
 }

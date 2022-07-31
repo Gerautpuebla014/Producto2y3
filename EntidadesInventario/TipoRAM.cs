@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class TipoRAM
+    public class TipoRAM
     {
+        public int id_tiporam { get; set; }
+        public string tipo { get; set; }
+        public string extra { get; set; }
     }
 }

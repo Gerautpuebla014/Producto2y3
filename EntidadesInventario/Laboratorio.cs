@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class Laboratorio
+    public class Laboratorio
     {
     }
 }

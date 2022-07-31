@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class componente
+    public class componente
     {
+        public int id_Componente { get; set; }
+        public string NombreComponente { get; set; }
+        public string Modelo { get; set; }
     }
 }

@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class RAM
+    public class RAM
     {
+        public int Id_RAM { get; set; }
+        public int capacidad { get; set; }
+
+        public string velocidad { get; set; }
+        public int f_tiporam { get; set; }
     }
 }

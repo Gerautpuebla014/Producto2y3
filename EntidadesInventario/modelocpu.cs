@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class modelocpu
+    public class modelocpu
     {
+        public int id_modcpu { get; set; }
+        public string modelocpuC { get; set; }
+        public int f_marca { get; set; }
     }
 }

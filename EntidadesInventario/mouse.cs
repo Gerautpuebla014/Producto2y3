@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntidadesInventario
 {
-    internal class mouse
+    public class mouse
     {
+        public int Id_mouse { get; set; }
+        public int f_Marca { get; set; }
+        public string conector { get; set; }
     }
 }
