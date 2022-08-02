@@ -18,6 +18,6 @@ namespace EntidadesInventario
         public string num_mouse { get; set; }
         public int f_mouse { get; set; }
         public string estado { get; set; }
-
+        public int f_numlaboratorio { get; set; }  
     }
 }

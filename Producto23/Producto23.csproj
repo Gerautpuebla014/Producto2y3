@@ -42,6 +42,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LogicaNegociosInventario">
+      <HintPath>..\LogicaNegociosInventario\bin\Debug\LogicaNegociosInventario.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -84,6 +87,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="DiscoduroRam.aspx" />
     <Content Include="index.aspx" />
     <Content Include="laboratorio.aspx" />
     <Content Include="marca.aspx" />
@@ -95,7 +99,6 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="tiposcpu.aspx" />
-    <Content Include="ubicacion.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +129,13 @@
     </Compile>
     <Compile Include="computadorafinal.aspx.designer.cs">
       <DependentUpon>computadorafinal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DiscoduroRam.aspx.cs">
+      <DependentUpon>DiscoduroRam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DiscoduroRam.aspx.designer.cs">
+      <DependentUpon>DiscoduroRam.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -162,13 +172,6 @@
     </Compile>
     <Compile Include="tiposcpu.aspx.designer.cs">
       <DependentUpon>tiposcpu.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ubicacion.aspx.cs">
-      <DependentUpon>ubicacion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ubicacion.aspx.designer.cs">
-      <DependentUpon>ubicacion.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

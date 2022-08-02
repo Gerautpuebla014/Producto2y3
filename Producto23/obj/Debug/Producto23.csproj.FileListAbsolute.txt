@@ -38,3 +38,7 @@ C:\Users\HP\OneDrive\Escritorio\DesarrolloWEBintegral\Producto23\Producto23\obj\
 C:\Users\HP\OneDrive\Escritorio\DesarrolloWEBintegral\Producto23\Producto23\obj\Debug\Producto23.csproj.CopyComplete
 C:\Users\HP\OneDrive\Escritorio\DesarrolloWEBintegral\Producto23\Producto23\obj\Debug\Producto23.dll
 C:\Users\HP\OneDrive\Escritorio\DesarrolloWEBintegral\Producto23\Producto23\obj\Debug\Producto23.pdb
+C:\Users\HP\OneDrive\Escritorio\DesarrolloWEBintegral\Producto23\Producto23\bin\LogicaNegociosInventario.dll
+C:\Users\HP\OneDrive\Escritorio\DesarrolloWEBintegral\Producto23\Producto23\bin\AccesoDatosInventario.dll
+C:\Users\HP\OneDrive\Escritorio\DesarrolloWEBintegral\Producto23\Producto23\bin\LogicaNegociosInventario.pdb
+C:\Users\HP\OneDrive\Escritorio\DesarrolloWEBintegral\Producto23\Producto23\bin\AccesoDatosInventario.pdb

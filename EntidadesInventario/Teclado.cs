@@ -8,7 +8,7 @@ namespace EntidadesInventario
 {
     public class Teclado
     {
-        public int Id_teclado { get; set; }
+        public int id_Teclado { get; set; }
         public int f_Marca { get; set; }
         public string conector  { get; set; }
     }

@@ -8,12 +8,12 @@ namespace EntidadesInventario
 {
     public class TipoCPU
     {
-        public int id_tcpu { get; set; }
-        public string tipo { get; set; }
-        public string familia { get; set; }
-        public string velocidad { get; set; }
+        public int id_TCPU{ get; set; }
+        public string Tipo { get; set; }
+        public string Familia { get; set; }
+        public string Velocidad { get; set; }
         public int f_modelo { get; set; }
-        public string extra { get; set; }
+        public string Extra { get; set; }
 
     }
 }

@@ -8,8 +8,8 @@ namespace EntidadesInventario
 {
     public class TipoRAM
     {
-        public int id_tiporam { get; set; }
-        public string tipo { get; set; }
-        public string extra { get; set; }
+        public int id_TipoRAM { get; set; }
+        public string Tipo { get; set; }
+        public string Extra { get; set; }
     }
 }

@@ -47,16 +47,13 @@
                   <a class="nav-link" href="modeloscpu.aspx">MODELOS</a>
                  </li>
                     <li class="nav-item">
-                  <a class="nav-link" href="tiposcpu.aspx">TIPOS</a>
-                 </li>
-                    <li class="nav-item">
-                  <a class="nav-link" href="ubicacion.aspx">UBICACION</a>
+                  <a class="nav-link" href="tiposcpu.aspx">CPU GENERICO</a>
                  </li>
                     <li class="nav-item">
                   <a class="nav-link" href="AccesoriosparaPC.aspx">ACCESORIOS </a>
                  </li>
                     <li class="nav-item">
-                  <a class="nav-link" href="laboratorio.aspx">LABORATORIO</a>
+                  <a class="nav-link" href="DiscoduroRam.aspx">HARDWARE</a>
                  </li>
                     <li class="nav-item">
                   <a class="nav-link" href="laboratorio.aspx">LABORATORIO</a>

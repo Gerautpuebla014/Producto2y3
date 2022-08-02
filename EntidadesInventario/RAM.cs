@@ -8,10 +8,10 @@ namespace EntidadesInventario
 {
     public class RAM
     {
-        public int Id_RAM { get; set; }
-        public int capacidad { get; set; }
+        public int id_RAM { get; set; }
+        public int Capacidad { get; set; }
 
-        public string velocidad { get; set; }
-        public int f_tiporam { get; set; }
+        public string Velocidad { get; set; }
+        public int F_TipoR { get; set; }
     }
 }

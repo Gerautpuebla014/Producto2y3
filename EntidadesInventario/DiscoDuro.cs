@@ -14,5 +14,7 @@ namespace EntidadesInventario
         public string capacidad { get; set; }
         public int f_Marca { get; set; }
         public string Extra { get; set; }
+
+        public string f_num_inv { get; set; }
     }
 }

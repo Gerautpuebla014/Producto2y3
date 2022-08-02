@@ -15,7 +15,7 @@ namespace EntidadesInventario
         public string descripcion { get; set; }
         public int f_Ram { get; set; }
         public int f_Gabinete { get; set; }
-        public string Imagen   { get; set; }
+        //public string Imagen   { get; set; }
 
     }
 }

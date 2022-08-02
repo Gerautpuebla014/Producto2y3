@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AccesoDatosInventario">
+      <HintPath>..\AccesoDatosInventario\bin\Debug\AccesoDatosInventario.dll</HintPath>
+    </Reference>
+    <Reference Include="EntidadesInventario">
+      <HintPath>..\EntidadesInventario\bin\Debug\EntidadesInventario.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

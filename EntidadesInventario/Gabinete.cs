@@ -8,7 +8,10 @@ namespace EntidadesInventario
 {
     public class Gabinete
     {
-          Id_Gabinete 
+        public int Id_Gabinete { get; set; }
+        public string Modelo { get; set; }
+        public string TipoForma { get; set; }
+        public int f_Marca { get; set; }
+
     }
-}
 }

@@ -48,25 +48,85 @@
                   <a class="nav-link" href="modeloscpu.aspx">MODELOS</a>
                  </li>
                     <li class="nav-item">
-                  <a class="nav-link" href="tiposcpu.aspx">TIPOS</a>
+                  <a class="nav-link" href="tiposcpu.aspx">CPU GENERICO</a>
                  </li>
-                    <li class="nav-item">
-                  <a class="nav-link" href="ubicacion.aspx">UBICACION</a>
-                 </li>
+                   
                     <li class="nav-item">
                  <a class="nav-link" href="AccesoriosparaPC.aspx">ACCESORIOS </a>
                  </li>
                     <li class="nav-item">
-                  <a class="nav-link" href="laboratorio.aspx">LABORATORIO</a>
+                  <a class="nav-link" href="DiscoduroRam.aspx">HARDWARE</a>
                  </li>
                     <li class="nav-item">
                   <a class="nav-link" href="laboratorio.aspx">LABORATORIO</a>
                  </li>
 
-      </ul>
-    </div>
-  </nav>
+          </ul>
+        </div>
+      </nav>
+   </div>
+        
+            <div class="bg-info font-italic">
+            <center><h3>INSERTAR MARCA</h3> </center>
+        </div>
+        <div> <center>
+             <p>Nombre de la Marca:
+                    <asp:TextBox ID="TextBox1" runat="server" Width="197px"></asp:TextBox>
+                </p>
+                <p>Extra o descripcion:
+                    <asp:TextBox ID="TextBox2" runat="server" Width="292px"></asp:TextBox>
+                </p>
+                <p>
+                    <asp:Button ID="Button1" runat="server" BackColor="Aqua" ForeColor="Black" Text="Insertar Marca" Width="164px" OnClick="Button1_Click" />
+                </p>
+             </center>
+        </div>
+        <div class="bg-info font-italic">
+            <center><h3>MOSTRAR MARCAS</h3></center>
+        </div>
+        <div>
+             <center>
+
+                 <asp:Button ID="Button2" runat="server" BackColor="#0066CC" Text="Mostrar Marcas" />
+                 <br />
+                 <br />
+
+                 <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" Width="414px">
+                     <AlternatingRowStyle BackColor="White" />
+                     <Columns>
+                         <asp:CommandField ShowSelectButton="True" />
+                     </Columns>
+                     <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                     <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                     <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+                     <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
+                     <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+                     <SortedAscendingCellStyle BackColor="#FDF5AC" />
+                     <SortedAscendingHeaderStyle BackColor="#4D0000" />
+                     <SortedDescendingCellStyle BackColor="#FCF6C0" />
+                     <SortedDescendingHeaderStyle BackColor="#820000" />
+                 </asp:GridView>
+
+             </center>
+        </div>
+        <div class="bg-info font-italic">
+            <center><h3>MODIFICAR MARCA</h3></center>
+        </div>
+        <div>
+             <center>
+
+             </center>
+        </div>
+        <div class="bg-info font-italic">
+            <center><h3>ELIMINAR MARCA</h3></center>
+        </div>
+        <div>
+             <center>
+
+             </center>
         </div>
     </form>
+    <p>
+        &nbsp;</p>
 </body>
 </html>
