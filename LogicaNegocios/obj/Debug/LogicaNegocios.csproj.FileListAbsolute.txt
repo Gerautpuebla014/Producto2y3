@@ -1,0 +1,11 @@
+C:\Users\erick\Producto2y3\LogicaNegocios\obj\Debug\LogicaNegocios.csproj.AssemblyReference.cache
+C:\Users\erick\Producto2y3\LogicaNegocios\obj\Debug\LogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\erick\Producto2y3\LogicaNegocios\bin\Debug\LogicaNegocios.dll
+C:\Users\erick\Producto2y3\LogicaNegocios\bin\Debug\LogicaNegocios.pdb
+C:\Users\erick\Producto2y3\LogicaNegocios\bin\Debug\AccesoDatos.dll
+C:\Users\erick\Producto2y3\LogicaNegocios\bin\Debug\Entidades.dll
+C:\Users\erick\Producto2y3\LogicaNegocios\bin\Debug\AccesoDatos.pdb
+C:\Users\erick\Producto2y3\LogicaNegocios\bin\Debug\Entidades.pdb
+C:\Users\erick\Producto2y3\LogicaNegocios\obj\Debug\LogicaNegocios.csproj.CopyComplete
+C:\Users\erick\Producto2y3\LogicaNegocios\obj\Debug\LogicaNegocios.dll
+C:\Users\erick\Producto2y3\LogicaNegocios\obj\Debug\LogicaNegocios.pdb
