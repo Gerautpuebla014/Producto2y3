@@ -79,6 +79,9 @@
                 <p>
                     <asp:Button ID="Button1" runat="server" BackColor="Aqua" ForeColor="Black" Text="Insertar Marca" Width="164px" OnClick="Button1_Click" />
                 </p>
+             <p>
+                    <asp:TextBox ID="TextBox3" runat="server" Width="465px"></asp:TextBox>
+                </p>
              </center>
         </div>
         <div class="bg-info font-italic">
@@ -87,7 +90,7 @@
         <div>
              <center>
 
-                 <asp:Button ID="Button2" runat="server" BackColor="#0066CC" Text="Mostrar Marcas" />
+                 <asp:Button ID="Button2" runat="server" BackColor="#0066CC" Text="Mostrar Marcas" OnClick="Button2_Click" />
                  <br />
                  <br />
 

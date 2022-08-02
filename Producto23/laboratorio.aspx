@@ -65,7 +65,7 @@
     </div>
   </nav>
         </div>
-        <div class="bg-dark font-italic"><center><h3>INSERTAR</h3></center></div>
+        <div class="bg-dark font-italic"><center><h3>INSERTAR LABORATORIOS</h3></center></div>
         <div><center>
 
              <asp:Label ID="Label1" runat="server" Text="nombre de laboratorio"></asp:Label>
@@ -76,13 +76,16 @@
              <asp:TextBox ID="TextBox2" runat="server" Width="270px"></asp:TextBox>
              <br />
              <br />
-             <asp:Button ID="Button1" runat="server" BackColor="#3399FF" Text="Insertar laboratorio" Width="145px" />
+             <asp:Button ID="Button1" runat="server" BackColor="#3399FF" Text="Insertar laboratorio" Width="145px" OnClick="Button1_Click" />
              <br />
              <br />
              <asp:TextBox ID="TextBox3" runat="server" Width="410px"></asp:TextBox>
 
              </center></div>
-        <div class="bg-dark font-italic" ><center><h3>MOSTRAR</h3></center></div>
+        <div class="bg-dark font-italic" ><center><h3>MOSTRAR LABORATORIOS</h3>
+            <p>
+                <asp:Button ID="Button2" runat="server" BackColor="#0066CC" OnClick="Button2_Click" Text="Mostrar laboratorios" Width="208px" />
+            </p></center></div>
         <div><center>
             <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
                 <AlternatingRowStyle BackColor="White" />

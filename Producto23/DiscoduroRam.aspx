@@ -291,7 +291,7 @@
                  <SortedDescendingHeaderStyle BackColor="#002876" />
              </asp:GridView>
              <br />
-             <asp:Button ID="Button4" runat="server" BackColor="#99CCFF" Text="Insertar RAM" Width="178px" />
+             <asp:Button ID="Button4" runat="server" BackColor="#99CCFF" Text="Insertar RAM" Width="178px" OnClick="Button4_Click" />
 
              </center></div>
         <div class="bg-dark font-italic" ><center><h3>MOSTRAR RAM</h3></center></div>

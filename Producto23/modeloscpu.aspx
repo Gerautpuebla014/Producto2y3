@@ -165,7 +165,7 @@
         <div class="bg-dark font-italic" ><center><h3>MOSTRAR TIPOS CPU</h3></center></div>
         <div><center>
 
-             <asp:Button ID="Button3" runat="server" BackColor="#0099FF" Text="Mostrar Tipos CPU" Width="191px" />
+             <asp:Button ID="Button3" runat="server" BackColor="#0099FF" Text="Mostrar Tipos CPU" Width="191px" OnClick="Button3_Click" />
              <br />
              <br />
              <asp:GridView ID="GridView2" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
